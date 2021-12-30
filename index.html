@@ -19,19 +19,19 @@
 
     <div class="container-fluid main-container">
         <div class="row">
-            <div class="col-11 col-md-9 padding-0">
+            <div class="col-12 col-md-9 padding-0">
                 <div class="border-bottom pd-left nav-header">
                     <div class="row">
-                        <div class="col-7">
+                        <div class="col-7 ">
                             <a class="navbar-brand" href="index.html">
                                 <img src="logo.png" width="150">
                             </a>
                         </div>
-                        <div class="col-5">
+                        <div class="col-5 pt-3">
                             <p class="ms-auto margin-tb-auto"><b>Take Away</b> &nbsp; <a href="#" class="main-color">Change...</a></p>
                         </div>
                         </div>
-                    <nav class="navbar navbar-expand-lg">
+                    <nav class="navbar navbar-expand-lg navbar-light ">
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="text-dark navbar-toggler-icon"></span>
                         </button>
@@ -69,6 +69,7 @@
 
                     <div class="tab-content pd-left" id="myTabContent">
                         <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                            <div class="row d-md-none d-block"><h3 class="pt-4">Chicken</h3></div>
                             <div class="row tabs-content">
                                 <div class="col-12 col-sm-12 col-md-4 menu-item">
                                     <img class="menu-item-img" src="vinegar_pork.png">
@@ -133,6 +134,7 @@
                             </div>
                         </div>
                         <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                            <div class="row d-md-none d-block"><h3 class="pt-4">Fish</h3></div>
                             <div class="row tabs-content">
                                 <div class="col-12 col-sm-12 col-md-4 menu-item">
                                     <img class="menu-item-img" src="menu-item.png">
@@ -173,6 +175,7 @@
                             </div>
                         </div>
                         <div class="tab-pane fade" id="pork" role="tabpanel" aria-labelledby="pork-tab">
+                            <div class="row d-md-none d-block"><h3 class="pt-4">Pork</h3></div>
                             <div class="row tabs-content">
                                 <div class="col-12 col-sm-12 col-md-4 menu-item">
                                     <img class="menu-item-img" src="vinegar_pork.png">
@@ -218,7 +221,7 @@
             </div>
 
 
-            <div class="col-1 col-md-3 border-left padding-0">
+            <div class="d-none d-md-block col-md-3 border-left padding-0">
                 <div class="cart-section">
                     <div class="cart-heading"><b>Your Cart</b></div>
                     <hr style="color: #eee;height: 1px;opacity: 1;margin: 0;" />
@@ -227,6 +230,23 @@
                     <div class="cart-total">
                         <span>Your Total</span>
                         <span class="total-price">RM0.00</span>
+                    </div>
+                </div>
+                
+                <div class="fixed-bottom p-3" style="
+                left: auto;">
+                    <a href="#" class="btn btn-small btn-danger ">Checkout&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RM0.00</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="d-block d-md-none col-md-12 border-left padding-0 footer fixed-bottom bg-white">
+                    <div class="cart-section">
+                        
+                        <div class="cart-total">
+                            <span>Your Total</span>
+                            <span class="total-price">RM0.00</span>
+                            <a href="#" class="btn btn-sm btn-danger ">View Full Cart</a>
+                        </div>
                     </div>
                 </div>
             </div>

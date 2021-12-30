@@ -33,7 +33,7 @@ h3{
 }
 
 .cart-heading{
-    padding: 30px;
+    padding: 24px;
 }
 
 .cart-count, .cart-total{
@@ -129,4 +129,11 @@ h3{
 
 .space-20{
     height: 20px;
+}
+
+footer {
+    position: fixed;
+    height: 100px;
+    bottom: 0;
+    width: 100%;
 }
