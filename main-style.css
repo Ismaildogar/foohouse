@@ -159,10 +159,10 @@ footer {
         font-size: 13px;
     }
     .menu-item-add {
-        padding-bottom: 1px;
+        padding-bottom: 4px;
     }
     .pd-left-nav{
-        padding-left: 2px !important;
+        padding-left: 0px !important;
     }
     .nav-link{
         padding: 6px !important;
