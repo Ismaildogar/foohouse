@@ -137,3 +137,11 @@ footer {
     bottom: 0;
     width: 100%;
 }
+.border-less {
+    border: none;
+
+}
+.border-less:focus {
+    outline: none;
+    
+}
