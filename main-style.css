@@ -145,3 +145,30 @@ footer {
     outline: none !important;
     
 }
+.pd-left-nav{
+    padding-left: 10px !important;
+}
+@media only screen and (max-width: 768px) {
+    .card-item-name{
+        font-size: 12px !important;
+    }
+    .menu-item-price{
+        /* font-weight: 600; */
+        margin-top: auto;
+        margin-bottom: auto;
+        font-size: 13px;
+    }
+    .menu-item-add {
+        padding-bottom: 1px;
+    }
+    .pd-left-nav{
+        padding-left: 2px !important;
+    }
+    .nav-link{
+        padding: 6px !important;
+        font-weight: 400;
+        font-size: 11px;
+    }
+  
+    
+  }
