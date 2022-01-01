@@ -138,10 +138,10 @@ footer {
     width: 100%;
 }
 .border-less {
-    border: none;
+    border: none !important;
 
 }
 .border-less:focus {
-    outline: none;
+    outline: none !important;
     
 }
